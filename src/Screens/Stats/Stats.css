@@ -1,0 +1,106 @@
+.stats {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-between;
+  padding: 20px;
+}
+.stats > .card {
+  flex: 0.2;
+  text-align: center;
+  border-radius: 20px;
+  height: fit-content;
+  margin-top: 75px;
+}
+.stats > .card:nth-child(1) {
+  box-shadow: rgba(216, 237, 218, 0.02) 0px 0.602187px 3.01094px 0px,
+    rgba(216, 237, 218, 0.07) 0px 2.28853px 11.4427px 0px,
+    rgba(216, 237, 218, 0.3) 0px 10px 50px 0px;
+}
+.stats > .card:nth-child(2) {
+  box-shadow: 0 0.6021873017743928px 3.010936508871964px #ecedd805,
+    0 2.288533303243457px 11.442666516217285px #ecedd812, 0 10px 50px #ecedd84d;
+}
+.stats > .card:nth-child(3) {
+  box-shadow: 0 0.6021873017743928px 3.010936508871964px #edd8d805,
+    0 2.288533303243457px 11.442666516217285px #edd8d812, 0 10px 50px #edd8d84d;
+}
+.stats > .card:nth-child(4) {
+  box-shadow: 0 0.6021873017743928px 3.010936508871964px #d8deed05,
+    0 2.288533303243457px 11.442666516217285px #d8deed12, 0 10px 50px #d8deed4d;
+}
+/* Card Icon */
+.stats > .card:nth-child(1) > .card-icon {
+  background-color: rgba(122, 214, 131, 0.32);
+  width: 125px;
+  height: 125px;
+  margin: auto;
+  border-radius: 100px;
+  box-shadow: rgba(216, 237, 218, 0.02) 0px 0.602187px 3.01094px 0px,
+    rgba(216, 237, 218, 0.07) 0px 2.28853px 11.4427px 0px,
+    rgba(216, 237, 218, 0.3) 0px 10px 50px 0px;
+  margin-top: -75px;
+}
+.stats > .card:nth-child(2) > .card-icon {
+  background-color: #f9fad8;
+  width: 125px;
+  height: 125px;
+  margin: auto;
+  border-radius: 100px;
+  box-shadow: 0 0.6021873017743928px 3.010936508871964px #ecedd805,
+    0 2.288533303243457px 11.442666516217285px #ecedd812, 0 10px 50px #ecedd84d;
+  margin-top: -75px;
+}
+.stats > .card:nth-child(3) > .card-icon {
+  background-color: #fad9d8;
+  width: 125px;
+  height: 125px;
+  margin: auto;
+  border-radius: 100px;
+  box-shadow: 0 0.6021873017743928px 3.010936508871964px #edd8d805,
+    0 2.288533303243457px 11.442666516217285px #edd8d812, 0 10px 50px #edd8d84d;
+  margin-top: -75px;
+}
+.stats > .card:nth-child(4) > .card-icon {
+  background-color: #d8defa;
+  width: 125px;
+  height: 125px;
+  margin: auto;
+  border-radius: 100px;
+  box-shadow: 0 0.6021873017743928px 3.010936508871964px #d8deed05,
+    0 2.288533303243457px 11.442666516217285px #d8deed12, 0 10px 50px #d8deed4d;
+  margin-top: -75px;
+}
+.stats > .card > .card-icon > .icon {
+  color: #333 !important;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: 17%;
+  left: 2%;
+}
+
+.stats > .card > .card-title {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333;
+}
+.stats > .card > .card-content {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #333333cb;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 15px;
+}
+.stats > .card:nth-child(1) > .card-content {
+  background-color: rgba(122, 214, 131, 0.32);
+}
+.stats > .card:nth-child(2) > .card-content {
+  background-color: #f9fad8;
+}
+.stats > .card:nth-child(3) > .card-content {
+  background-color: #fad9d8;
+}
+.stats > .card:nth-child(4) > .card-content {
+  background-color: #d8defa;
+}

@@ -1,0 +1,9 @@
+body {
+  font-family: calibri, san-serif;
+}
+* {
+  text-decoration: none !important;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
