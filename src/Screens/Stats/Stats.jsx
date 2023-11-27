@@ -55,6 +55,9 @@ const Stats = () => {
       <Card cardTitle={card3Title} cardContent={card3Content} />
       <Card cardTitle={card4Title} cardContent={card4Content} />
       <button onClick={handleSubmit}>+</button>
+      {data.map((datas) => {
+        return <div>{datas.val}</div>;
+      })}
     </div>
   );
 };
